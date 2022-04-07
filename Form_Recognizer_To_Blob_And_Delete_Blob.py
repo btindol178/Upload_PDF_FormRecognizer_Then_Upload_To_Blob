@@ -46,7 +46,7 @@ for blob in blob_list:
     newblobname = blobname.replace("forms/", "")
     print("New blob name is: ",newblobname)
     # Make string for formatting 
-    unfinishedUrl = "https://<container_name>.blob.core.windows.net/form-recognizer/{blobname}" # Faster for development 1 page (WORKS!!)
+    unfinishedUrl = "https://<storageaccount_name>.blob.core.windows.net/form-recognizer/{blobname}" # Faster for development 1 page (WORKS!!)
     print("Unfinished url is: ",unfinishedUrl)
 
     # complete URL that specific blob
